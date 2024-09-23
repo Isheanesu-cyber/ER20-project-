@@ -64,3 +64,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+###
+```shell
+ $ forge install OpenZeppelin/openzeppelin-contracts --no-commit
+```
+###
+OurToken token = new OurToken(1000000 * 10**18); // Deploy with 1 million tokens
